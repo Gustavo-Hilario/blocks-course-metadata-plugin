@@ -36,6 +36,8 @@
   },
   "dependencies": {
     "@wordpress/data": "^6.1.5",
-    "@wordpress/i18n": "^4.2.4"
+    "@wordpress/edit-post": "^7.32.0",
+    "@wordpress/i18n": "^4.2.4",
+    "@wordpress/plugins": "^6.23.0"
   }
 }
