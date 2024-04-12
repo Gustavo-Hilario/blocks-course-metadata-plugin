@@ -35,6 +35,7 @@
     "lint-staged": "^12.1.5"
   },
   "dependencies": {
+    "@wordpress/components": "^27.3.0",
     "@wordpress/data": "^6.1.5",
     "@wordpress/edit-post": "^7.32.0",
     "@wordpress/i18n": "^4.2.4",
