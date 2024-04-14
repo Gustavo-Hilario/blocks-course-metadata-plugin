@@ -26,6 +26,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@wordpress/block-editor": "^12.23.0",
+    "@wordpress/blocks": "^12.32.0",
+    "@wordpress/dom-ready": "^3.55.0",
     "@wordpress/eslint-plugin": "^9.3.0",
     "@wordpress/prettier-config": "^1.1.1",
     "@wordpress/scripts": "^19.2.2",
@@ -35,10 +38,10 @@
     "lint-staged": "^12.1.5"
   },
   "dependencies": {
-    "@wordpress/block-editor": "^12.23.0",
     "@wordpress/components": "^27.3.0",
     "@wordpress/data": "^6.1.5",
     "@wordpress/edit-post": "^7.32.0",
+    "@wordpress/hooks": "^3.55.0",
     "@wordpress/i18n": "^4.2.4",
     "@wordpress/plugins": "^6.23.0",
     "@wordpress/rich-text": "^6.32.0"

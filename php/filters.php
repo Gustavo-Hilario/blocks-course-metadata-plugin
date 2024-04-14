@@ -6,7 +6,7 @@ function blocks_course_metadata_registration( $metadata ) {
     // var_dump($metadata);
     // echo '</pre>';
     if($metadata['name'] === 'core/paragraph') {
-        $metadata['title']  = 'Text Block';
+        $metadata['title']  = 'Text Block (PHP Filter)';
         $metadata['supports']['color'] = array(
             'gradients' => true,
             'link' => true,
@@ -19,7 +19,12 @@ add_filter( 'block_type_metadata', 'blocks_course_metadata_registration' );
 function blocks_course_filter_allowed_blocks( $allowed_blocks, $editor_context ) {
     if( !empty($editor_context->post) && $editor_context->post->post_type === 'post' ) {
         $allowed_blocks = array(
-            'core/paragraph'
+            'core/paragraph',
+            'core/heading',
+            'core/image',
+            'core/gallery',
+            'core/list',
+            'core/quote',
         );
     }
     return $allowed_blocks;
