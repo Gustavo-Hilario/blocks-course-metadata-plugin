@@ -25,6 +25,7 @@ function blocks_course_filter_allowed_blocks( $allowed_blocks, $editor_context )
             'core/gallery',
             'core/list',
             'core/quote',
+            'create-block/todo-list',
         );
     }
     return $allowed_blocks;
