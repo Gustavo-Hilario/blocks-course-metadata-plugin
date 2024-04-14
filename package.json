@@ -35,10 +35,12 @@
     "lint-staged": "^12.1.5"
   },
   "dependencies": {
+    "@wordpress/block-editor": "^12.23.0",
     "@wordpress/components": "^27.3.0",
     "@wordpress/data": "^6.1.5",
     "@wordpress/edit-post": "^7.32.0",
     "@wordpress/i18n": "^4.2.4",
-    "@wordpress/plugins": "^6.23.0"
+    "@wordpress/plugins": "^6.23.0",
+    "@wordpress/rich-text": "^6.32.0"
   }
 }
